@@ -1,0 +1,20 @@
+.container {
+   display:flex;
+}
+
+#banner 
+{
+   flex: 1;
+}
+
+.container { 
+   flex: 1;
+   color:black;
+   background-color: lightcyan;
+}
+
+#banner { 
+   justify-content: center;
+   align-items: center;
+   flex: 3;
+}
