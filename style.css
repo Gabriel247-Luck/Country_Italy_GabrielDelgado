@@ -1,20 +1,59 @@
+
 .container {
-   display:flex;
+  flex: 1; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
-#banner 
-{
-   flex: 1;
+#banner {
+  flex: 1;
+  text-align: center;
 }
 
-.container { 
-   flex: 1;
-   color:black;
-   background-color: lightcyan;
+#banner h1 {
+  color: darkred;
 }
 
-#banner { 
-   justify-content: center;
-   align-items: center;
-   flex: 3;
+#banner p {
+  color: darkred;
 }
+
+nav {
+  background-color: green;
+  padding: 10px;
+}
+
+nav a {
+  padding: 10px 20px;
+  color: darkred;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+#main {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#main p {
+  text-align: center;
+}
+
+#footer {
+  flex: 1;
+  background-color: lightcyan;
+  padding: 20px;
+  text-align: center;
+  color: darkred;
+}
+
+
+
+
+
