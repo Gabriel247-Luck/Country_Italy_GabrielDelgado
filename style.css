@@ -1,5 +1,5 @@
-
 .container {
+  display:flex;
   flex: 1; 
   flex-wrap: wrap;
   justify-content: center;
@@ -23,6 +23,12 @@
 nav {
   background-color: green;
   padding: 10px;
+
+}
+
+.container #one, #two, #three, #four{
+  flex:1;
+
 }
 
 nav a {
@@ -32,6 +38,9 @@ nav a {
   background-color: lightcyan;
 }
 
+#banner 
+{
+   flex: 1;
 #main {
   flex: 3;
   display: flex;
@@ -41,9 +50,19 @@ nav a {
   padding: 20px;
 }
 
+.container { 
+   flex: 1;
+   color:black;
+   background-color: lightcyan;
+
 #main p {
   text-align: center;
 }
+
+#banner { 
+   justify-content: center;
+   align-items: center;
+   flex: 3;
 
 #footer {
   flex: 1;
@@ -52,8 +71,3 @@ nav a {
   text-align: center;
   color: darkred;
 }
-
-
-
-
-
