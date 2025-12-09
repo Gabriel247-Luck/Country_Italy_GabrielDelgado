@@ -21,7 +21,7 @@
 }
 
 nav {
-  background-color: green;
+  background-color: darkred;
   padding: 10px;
 
 }
@@ -38,9 +38,6 @@ nav a {
   background-color: lightcyan;
 }
 
-#banner 
-{
-   flex: 1;
 #main {
   flex: 3;
   display: flex;
@@ -70,4 +67,8 @@ nav a {
   padding: 20px;
   text-align: center;
   color: darkred;
+}
+
+nav a:hover {
+  color: yellow;
 }
