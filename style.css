@@ -16,7 +16,7 @@
   color: darkred;
 }
 
-#banner p {
+#banner nav  {
   color: darkred;
 }
 
@@ -67,8 +67,4 @@ nav a {
   padding: 20px;
   text-align: center;
   color: darkred;
-}
-
-nav a:hover {
-  color: yellow;
-}
+} 
