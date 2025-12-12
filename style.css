@@ -20,12 +20,6 @@
   color: darkred;
 }
 
-nav {
-  background-color: darkred;
-  padding: 10px;
-
-}
-
 .container #one, #two, #three, #four{
   flex:1;
 
