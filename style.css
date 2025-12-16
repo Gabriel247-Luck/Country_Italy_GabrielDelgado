@@ -99,3 +99,15 @@ img {
   color: darkred;
   font-size: 14px;
 }
+
+.ABC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ABC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
