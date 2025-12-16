@@ -1,15 +1,14 @@
-
 * {
-  margin: 0;
-  padding: 0;
+  padding: none;
   font-family: Arial;
 }
 
 body {
   background-color: lightcyan;
   color: black;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .container {
   display: flex;
@@ -19,26 +18,22 @@ body {
   width: 100%;
 }
 
-
-
 #banner {
-  flex-direction: column;
   text-align: center;
 }
 
 #banner h1 {
   color: darkred;
-  margin-bottom: 10px;
 }
 
 #banner p {
   font-style: italic;
 }
 
-
 #links {
   display: flex;
   justify-content: center;
+  padding: 15px;
 }
 
 #links a {
@@ -54,20 +49,14 @@ body {
   color: white;
 }
 
-
 #main {
-  flex-direction: column;
   text-align: center;
-  width: 100px;
- 
+  max-width: 900px;
+  width: 100%;
 }
 
 #main h2 {
   color: darkred;
-}
-
-#main p {
-  margin-bottom: 15px;
 }
 
 
@@ -76,7 +65,11 @@ body {
   padding: 20px;
   margin: 20px 0;
   width: 100%;
+  max-width: 800px;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .ABC h2 {
@@ -84,30 +77,16 @@ body {
   margin-bottom: 10px;
 }
 
-
 img {
   width: 100%;
+  max-width: 350px;
   height: 230px;
   border-radius: 6px;
 }
 
-
 #footer {
-  background-color: lightcyan;
   text-align: center;
   padding: 20px;
   color: darkred;
   font-size: 14px;
-}
-
-.ABC {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-body {
-  display: flex;
-  flex-direction: column;
 }
