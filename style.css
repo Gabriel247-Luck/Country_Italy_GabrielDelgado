@@ -1,7 +1,5 @@
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial;
 }
 
 body {
@@ -10,7 +8,6 @@ body {
 }
 
 #banner {
-  text-align: center;
   padding: 20px;
 }
 
@@ -20,12 +17,10 @@ body {
 
 #banner p {
   font-style: italic;
-  margin-top: 5px;
 }
 
 #links {
-  text-align: center;
-  margin: 10px 0;
+  margin: 10px;
 }
 
 #links a {
@@ -34,7 +29,6 @@ body {
   text-decoration: none;
   background-color: white;
   border-radius: 5px;
-  margin: 0 5px;
 }
 
 #links a:hover {
@@ -51,17 +45,12 @@ body {
 
 #main h2 {
   color: darkred;
-  margin: 15px 0;
 }
 
-#main p {
-  margin: 10px 0;
-}
 
 .ABC {
   background-color: white;
   padding: 20px;
-  margin: 20px 0;
   border-radius: 8px;
 }
 
@@ -69,13 +58,9 @@ body {
   width: 100%;
   max-width: 350px;
   height: 230px;
-  object-fit: cover;
-  display: block;
-  margin: 15px auto 0 auto;
 }
 
 #footer {
-  text-align: center;
   padding: 20px;
   color: darkred;
   font-size: 14px;
