@@ -107,3 +107,15 @@ body {
   width: 50%;
 }
 
+#main img {
+    max-width: 100%;              
+    height: auto;
+    border-radius: 10px;            
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    padding: 10px 0;              
+}
+
+#main img:hover {
+    transform: scale(1.05);                        
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);    
+}
