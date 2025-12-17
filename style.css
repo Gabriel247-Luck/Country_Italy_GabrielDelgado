@@ -1,68 +1,109 @@
-* {
-  font-family: Arial;
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: lightcyan;
+    color: darkred;
 }
 
-body {
-  background-color: lightcyan;
-  color: black;
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
 }
 
 #banner {
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, lightcyan);
+    border-radius: 10px;
 }
 
 #banner h1 {
-  color: darkred;
+    margin: 0;
+    font-family: Arial;
+  
 }
 
 #banner p {
-  font-style: italic;
+    font-family: Arial;
 }
 
 #links {
-  margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 0;
 }
 
 #links a {
-  padding: 10px 20px;
-  color: darkred;
-  text-decoration: none;
-  background-color: white;
-  border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 #links a:hover {
-  background-color: darkred;
-  color: white;
+    background-color: turquoise;
+    color: darkred;
 }
 
 #main {
-  width: 90%;
-  max-width: 900px;
-  margin: 20px auto;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+#main .ABC {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#main img:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 #main h2 {
-  color: darkred;
-}
-
-
-.ABC {
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.ABC img {
-  width: 100%;
-  max-width: 350px;
-  height: 230px;
+    margin-bottom: 10px;
 }
 
 #footer {
-  padding: 20px;
-  color: darkred;
-  font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: turquoise;
+    color: darkred;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+#main .ABC {
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  text-align: left;
+}
+ 
+#main .ABC img {
+  width: 50%;
+}
+
+#main .ABC p {
+  width: 50%;
 }
 
